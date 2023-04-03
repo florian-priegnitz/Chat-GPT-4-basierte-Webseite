@@ -1,2 +1,8 @@
-# webdseite-mittels-chatgpt-entwickeln
-Als ein Projekt für meine berufliche Neuorientierung habe ich mittels Prompt-Enginerring in den vergangen Tagen eine Webseite gebaut.
+# Webseite mit Chat-GPT 4.0 entwickeln
+Als ein Projekt für meine berufliche Neuorientierung habe ich mittels Prompt-Enginerring in den vergangen Tagen eine Webseite gebaut. Ich habe grundlegende Kenntnisse in HTML und CSS. Verschiedende Ideen schwebten mir vor:
+
+- Ich wollte vollkommen auf ein fertiges Contentmanagement System verzichten sondern ganz klassisch mit Filezilla den Content selbst Uploaden.
+- Das Design sollte sich am Linkedin-Design orientieren. Dies betrifft sowohl Anordnung der Grafiken aber auch Font-Typen, ohne aber auf Google-Fonts zurückzugreifen.
+- Das Design sollte am Ende Kontaktformular auf PHP-Basis haben, damit die Email nicht ausgelesen werden.
+- Das Design sollte responsive sein, sich entsprechend dem Endgerät anpassen, beispielsweise Tabellen sollten auch auf einem Smartphone funktionieren.
+- Der Content sollte responsive sein, das meint, dass die Textlänge in Abhängigkeit vom Endgerät ausgespielt werden soll.
