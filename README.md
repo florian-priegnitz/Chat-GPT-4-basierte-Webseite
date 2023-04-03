@@ -12,3 +12,12 @@ Ich möchte keinerlei Tracker auf der Seite verwenden, damit ich Datenschutzprob
 Die Entwicklung des gesamten Webdesigns erfolgte mit GPT 4.0. Das Endprodukt stelle ich mit diesem Repository für den freien Gebrauch zur Verfügung.
 
 Für das Erstellen des Header-Bildes habe ich snappa.com verwendet (Vorlage Linkedin-Profil). Das Profilbild, welches in den Header integriert ist, habe ich mit fotor.com zugeschnitten.
+
+Hintergrundbild
+Image Type:LinkedIn Profile
+Width:1584px
+Height:396px
+
+Daneben wurden weitere kleine Spielereien verwirklicht:
+- Sende-Button mit Hoover-Effekt
+- eine responsive Tabelle für die beruflichen Stationen
