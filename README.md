@@ -6,3 +6,5 @@ Als ein Projekt für meine berufliche Neuorientierung habe ich mittels Prompt-En
 - Das Design sollte am Ende Kontaktformular auf PHP-Basis haben, damit die Email nicht ausgelesen werden.
 - Das Design sollte responsive sein, sich entsprechend dem Endgerät anpassen, beispielsweise Tabellen sollten auch auf einem Smartphone funktionieren.
 - Der Content sollte responsive sein, das meint, dass die Textlänge in Abhängigkeit vom Endgerät ausgespielt werden soll.
+
+Ich möchte keinerlei Tracker auf der Seite verwenden, damit ich Datenschutzprobleme ausschliesse. Ggf. baue ich später ein Impressum samt Datenschutzerklärung ein. Da ich keinerlei Interesse daran habe, dass der Content indexiert wird, habe ich sie per Metatag auf noindex gesetzt.
