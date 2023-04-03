@@ -10,3 +10,5 @@ Als ein Projekt für meine berufliche Neuorientierung habe ich mittels Prompt-En
 Ich möchte keinerlei Tracker auf der Seite verwenden, damit ich Datenschutzprobleme ausschliesse. Ggf. baue ich später ein Impressum samt Datenschutzerklärung ein. Da ich keinerlei Interesse daran habe, dass der Content indexiert wird, habe ich sie per Metatag auf noindex gesetzt.
 
 Die Entwicklung des gesamten Webdesigns erfolgte mit GPT 4.0. Das Endprodukt stelle ich mit diesem Repository für den freien Gebrauch zur Verfügung.
+
+Für das Erstellen des Header-Bildes habe ich snappa.com verwendet (Vorlage Linkedin-Profil). Das Profilbild, welches in den Header integriert ist, habe ich mit fotor.com zugeschnitten.
