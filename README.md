@@ -21,3 +21,4 @@ Height:396px
 Daneben wurden weitere kleine Spielereien verwirklicht:
 - Sende-Button mit Hoover-Effekt
 - eine responsive Tabelle für die beruflichen Stationen
+- eine Captcha-Funktion, um Spam zu reduzieren
