@@ -26,3 +26,6 @@ Daneben wurden weitere kleine Spielereien verwirklicht:
 - Sende-Button mit Hoover-Effekt
 - eine responsive Tabelle für die beruflichen Stationen
 - eine Captcha-Funktion, um Spam zu reduzieren
+
+
+WICHTIG: Am Ende müssen Sie trotzdem HTML und CSS Verständnis haben, um den Code anpassen zu passen können.
