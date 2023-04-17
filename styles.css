@@ -1,0 +1,224 @@
+body {
+    font-family: 'Lato-Regular', Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato-Bold', Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    background: #ffffff;
+}
+
+.centered-container {
+    max-width: 900px;
+    margin: 10px auto 0 auto;
+    text-align: left;
+}
+
+.position-relative {
+    max-width: 900px;
+    position: relative;
+    background: #ffffff;
+}
+
+header {
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-image {
+    margin-bottom: 0px;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.infobox {
+    background: #ffffff;
+    padding: 20px;
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 0px;
+}
+
+.pronoun {
+    color: #cccccc;
+}
+
+main {
+    padding: 20px;
+    background: #ffffff;
+    text-align: left;
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('/Meine_Homepage/fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('/Meine_Homepage/fonts/Lato-Regular.ttf');
+}
+
+.social-icons {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #333;
+    font-size: 24px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #555;
+}
+form {
+    max-width: 400px;
+}
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+input[type='text'],
+input[type='email'],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    resize: none;
+}
+
+input[type='submit'] {
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type='submit']:hover {
+    border-radius: 10px;
+    background-color: #0dda28;
+    transform: scale(1.2);
+    transition-delay: 0.2s;
+}
+
+/* Verstecken Sie standardmäßig alle Texte */
+.text-desktop,
+.text-tablet,
+.text-mobile {
+    display: none;
+}
+
+/* Definieren Sie einen Media Query für Mobile-Geräte (z.B. bis 767px) */
+@media screen and (max-width: 767px) {
+    /* Zeigen Sie den Mobile-Text und verstecken Sie den Desktop- und Tablet-Text auf Mobile-Geräten */
+    .text-mobile {
+        display: block;
+    }
+    .text-desktop,
+    .text-tablet {
+        display: none;
+    }
+}
+
+/* Definieren Sie einen Media Query für Tablet-Geräte (z.B. zwischen 768px und 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Zeigen Sie den Tablet-Text und verstecken Sie den Desktop- und Mobile-Text auf Tablet-Geräten */
+    .text-tablet {
+        display: block;
+    }
+    .text-desktop,
+    .text-mobile {
+        display: none;
+    }
+}
+
+/* Definieren Sie einen Media Query für Desktop-Geräte (z.B. ab 992px) */
+@media screen and (min-width: 992px) {
+    /* Zeigen Sie den Desktop-Text und verstecken Sie den Tablet- und Mobile-Text auf Desktop-Geräten */
+    .text-desktop {
+        display: block;
+    }
+    .text-tablet,
+    .text-mobile {
+        display: none;
+    }
+}
+footer {
+    clear: both;
+    padding: 20px;
+    background: #ffffff;
+    text-align: left;
+}
+
+.experience-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info-table th,
+.info-table td {
+    border: 0px solid #ccc;
+    padding: 10px;
+}
+
+.info-table th:first-child,
+.info-table td:first-child {
+    width: 25%; /* Breite der Logo-Spalte */
+    text-align: center;
+}
+
+.info-table th:nth-child(2),
+.info-table td:nth-child(2) {
+    width: 35%; /* Breite der Zeitraum-Spalte */
+    text-align: left;
+}
+
+.info-table th:nth-child(3),
+.info-table td:nth-child(3) {
+    width: 40%; /* Breite der Projekte-Spalte */
+    text-align: left;
+}
+
+.info-table img {
+    max-width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: 'Proximanova';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/ProximaNovaCond-Light.woff2')
+            format('woff2'),
+        url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/ProximaNovaCond-Light.woff')
+            format('woff');
+    font-weight: 300;
+    font-style: normal;
+}

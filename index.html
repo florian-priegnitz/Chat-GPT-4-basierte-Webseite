@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex" />
+        <title>Ihre Webseite</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="css/all.css" />
+        <style>
+            html,
+            body {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="centered-container position-relative">
+            <div class="social-icons">
+                <a
+                    href="https://github.com"
+                    title="Besuchen Sie die Beispiel-Website"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    rel="nofollow"
+                    aria-label="GitHub-Profil"
+                >
+                    <i class="fab fa-github"></i>
+                </a>
+                <a
+                    href="https://www.linkedin.com/"
+                    title="Besuchen Sie die Beispiel-Website"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    rel="nofollow"
+                    aria-label="LinkedIn-Profil"
+                >
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="header-image">
+                <img
+                    src="/Meine_Homepage/images/Beispiel_Hintergrund.png"
+                    alt="Header"
+                />
+            </div>
+        </header>
+        <div class="container centered-container">
+            <div class="infobox">
+                <p class="pronoun">[he / him]</p>
+                <h1>Vorname Nachname</h1>
+                <p>
+                    <b> Beruf </b>
+                </p>
+                <p>Sadt, Land</p>
+            </div>
+
+            <main>
+                <h1>Über mich</h1>
+                <!-- Content nach Device -->
+                <p class="text-desktop">
+                    Desktop-Beispiel: Warum studiere ich? Was habe ich bisher
+                    gemacht?
+                </p>
+                <p class="text-tablet">Tablet-Beispiel</p>
+                <p class="text-mobile">Mobile-Beispiel</p>
+
+                <table class="info-table">
+                    <tr>
+                        <td>
+                            <img
+                                src="logo1.png"
+                                alt="Firmenlogo 1"
+                                class="logo"
+                            />
+                        </td>
+                        <td>Zeitraum 1</td>
+                        <td>Information 1</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img
+                                src="logo2.png"
+                                alt="Firmenlogo 2"
+                                class="logo"
+                            />
+                        </td>
+                        <td>Zeitraum 2</td>
+                        <td>Information 2</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img
+                                src="logo3.png"
+                                alt="Firmenlogo 3"
+                                class="logo"
+                            />
+                        </td>
+                        <td>Zeitraum 3</td>
+                        <td>Information 3</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img
+                                src="logo4.png"
+                                alt="Firmenlogo 4"
+                                class="logo"
+                            />
+                        </td>
+                        <td>Zeitraum 4</td>
+                        <td>Information 4</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img
+                                src="logo5.png"
+                                alt="Firmenlogo 5"
+                                class="logo"
+                            />
+                        </td>
+                        <td>Zeitraum 5</td>
+                        <td>Information 5</td>
+                    </tr>
+                </table>
+
+                <h2>Beitrag 1</h2>
+                <p class="text-desktop">Desktop-Beispiel</p>
+                <p class="text-tablet">Tablet-Beispiel</p>
+                <p class="text-mobile">Mobile-Beispiel</p>
+                <a
+                    href="blog1.html"
+                    target="_blank"
+                    title="Besuchen Sie die Beispiel-Website"
+                    >Weiterlesen</a
+                >
+
+                <h2>Beitrag 2</h2>
+                <p class="text-desktop">Desktop-Beispiel</p>
+                <p class="text-tablet">Tablet-Beispiel</p>
+                <p class="text-mobile">Mobile-Beispiel</p>
+                <a
+                    href="blog2.html"
+                    target="_blank"
+                    title="Besuchen Sie die Beispiel-Website"
+                    >Weiterlesen</a
+                >
+
+                <h2>Nehmen Sie gerne Kontakt mit mir auf</h2>
+                <form action="sendmail.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                    <br /><br />
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required />
+                    <br /><br />
+                    <label for="message">Nachricht:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        cols="40"
+                        required
+                    ></textarea>
+                    <label for="captcha"
+                        >Was ist <span id="num1"></span> +
+                        <span id="num2"></span>?</label
+                    >
+                    <input type="text" id="captcha" name="captcha" required />
+                    <input type="hidden" id="num1_hidden" name="num1" />
+                    <input type="hidden" id="num2_hidden" name="num2" />
+                    <br /><br />
+
+                    <input type="submit" value="Senden" />
+                </form>
+            </main>
+            <footer>
+                <p>&copy; 2023 Vorname Nachname. Alle Rechte vorbehalten.</p>
+            </footer>
+        </div>
+        <script>
+            function generateRandomNumbers() {
+                const num1 = Math.floor(Math.random() * 20) + 1;
+                const num2 = Math.floor(Math.random() * 20) + 1;
+
+                document.getElementById('num1').textContent = num1;
+                document.getElementById('num2').textContent = num2;
+                document.getElementById('num1_hidden').value = num1;
+                document.getElementById('num2_hidden').value = num2;
+            }
+            // Die Funktion beim Laden der Seite aufrufen
+            window.addEventListener('DOMContentLoaded', generateRandomNumbers);
+        </script>
+    </body>
+</html>
