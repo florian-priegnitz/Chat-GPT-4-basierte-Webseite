@@ -71,12 +71,12 @@ main {
 
 @font-face {
     font-family: 'Lato-Bold';
-    src: url('/Meine_Homepage/fonts/Lato-Bold.ttf');
+    src: url('/fonts/Lato-Bold.ttf');
 }
 
 @font-face {
     font-family: 'Lato-Regular';
-    src: url('/Meine_Homepage/fonts/Lato-Regular.ttf');
+    src: url('/fonts/Lato-Regular.ttf');
 }
 
 .social-icons {
@@ -107,14 +107,17 @@ input[type='text'],
 input[type='email'],
 textarea {
     width: 100%;
-    padding: 5px;
-    margin-bottom: 5px;
-    resize: none;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
 }
 
 input[type='submit'] {
     border-radius: 10px;
-    background-color: #333;
+    background-color: #0073b1;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -124,9 +127,40 @@ input[type='submit'] {
 
 input[type='submit']:hover {
     border-radius: 10px;
-    background-color: #0dda28;
+    background-color: #0c9913;
     transform: scale(1.2);
     transition-delay: 0.2s;
+}
+
+/* Definieren Sie die Größe der Checkbox */
+input[type='checkbox'] {
+    width: 15px; /* Ändern Sie die Breite der Checkbox */
+    height: 15px; /* Ändern Sie die Höhe der Checkbox */
+    margin: 0;
+    vertical-align: middle;
+}
+
+.phone-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.phone-button:hover {
+    background-color: #0c9913;
+    transform: scale(1.2);
+    transition-delay: 0.2s;
+}
+
+/* Ändern Sie die Position des zugehörigen Labels */
+.checkbox-container label {
+    display: inline;
+    margin-left: 5px;
+    vertical-align: middle;
 }
 
 /* Verstecken Sie standardmäßig alle Texte */
@@ -178,47 +212,63 @@ footer {
     text-align: left;
 }
 
-.experience-table {
+table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
 }
 
-.info-table th,
-.info-table td {
-    border: 0px solid #ccc;
-    padding: 10px;
-}
-
-.info-table th:first-child,
-.info-table td:first-child {
-    width: 25%; /* Breite der Logo-Spalte */
+td {
+    border: 1px solid #ddd;
     text-align: center;
+    padding: 8px;
 }
 
-.info-table th:nth-child(2),
-.info-table td:nth-child(2) {
-    width: 35%; /* Breite der Zeitraum-Spalte */
-    text-align: left;
+.logo img {
+    width: 100px; /* Feste Breite für die Logos */
+    height: 50px; /* Feste Höhe für die Logos */
+    object-fit: contain; /* Behält das Seitenverhältnis der Logos bei */
 }
 
-.info-table th:nth-child(3),
-.info-table td:nth-child(3) {
-    width: 40%; /* Breite der Projekte-Spalte */
-    text-align: left;
+@media screen and (max-width: 768px) {
+    table,
+    tr,
+    td {
+        display: block;
+    }
+
+    td {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    tr:first-child td {
+        border-top: none;
+    }
+
+    tr:not(:first-child) td {
+        border-top: 1px solid #ddd;
+    }
 }
 
-.info-table img {
-    max-width: 100%;
-    height: auto;
+ul {
+    list-style: none; /* Entfernt die Standard-Aufzählungszeichen */
+    padding: 0; /* Entfernt den Standard-Abstand */
 }
 
-@font-face {
-    font-family: 'Proximanova';
-    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/ProximaNovaCond-Light.woff2')
-            format('woff2'),
-        url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/ProximaNovaCond-Light.woff')
-            format('woff');
-    font-weight: 300;
-    font-style: normal;
+li {
+    background-color: #f0f0f0; /* Hintergrundfarbe für die Listenelemente */
+    border: 0px solid #ccc; /* Rahmen um die Listenelemente */
+    border-radius: 5px; /* Abgerundete Ecken für die Listenelemente */
+    color: #333; /* Schriftfarbe für die Listenelemente */
+    font-size: 16px; /* Schriftgröße für die Listenelemente */
+    margin-bottom: 10px; /* Abstand zwischen den Listenelementen */
+    padding: 10px; /* Innenabstand für die Listenelemente */
+    transition: 0.3s; /* Übergangseffekt für Hover-Effekt */
+}
+
+li:hover {
+    background-color: #e0e0e0; /* Hintergrundfarbe für das Hover-Listenelement */
+    cursor: pointer; /* Cursor-Stil für das Hover-Listenelement */
 }
