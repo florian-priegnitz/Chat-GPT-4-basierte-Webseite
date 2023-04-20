@@ -7,7 +7,7 @@ Als ein Projekt für meine berufliche Neuorientierung habe ich mittels Prompt-En
 - Das Design sollte responsive sein, sich entsprechend dem Endgerät anpassen, beispielsweise Tabellen sollten auch auf einem Smartphone funktionieren.
 - Der Content sollte responsive sein, das meint, dass die Textlänge in Abhängigkeit vom Endgerät ausgespielt werden soll.
 
-Ich möchte keinerlei Tracker auf der Seite verwenden, damit ich Datenschutzprobleme ausschliesse. Ggf. baue ich später ein Impressum samt Datenschutzerklärung ein. Da ich keinerlei Interesse daran habe, dass der Content indexiert wird, habe ich die Webseite per Metatag auf noindex gesetzt.
+Die Webseite ist anfangs per Metatag auf noindex gesetzt.
 
 Die Entwicklung des gesamten Webdesigns erfolgte mit GPT 4.0. Das Endprodukt stelle ich mit diesem Repository für den freien Gebrauch zur Verfügung.
 
