@@ -32,7 +32,7 @@ Bildgrößen
 Zusätzliche Funktionen
 - Sende-Button mit Hover-Effekt
 - Responsive Tabelle für berufliche Stationen
-- Captcha-Funktion zur Spam-Reduzierun
+- Captcha-Funktion zur Spam-Reduzierung
 
 Wichtiger Hinweis
 Um den bereitgestellten Code anpassen zu können, benötigen Sie grundlegende Kenntnisse in HTML und CSS. Trotz der vielen guten Bausteine von GPT-4 müssen immer wieder Anpassungen vorgenommen werden.
