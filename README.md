@@ -1,34 +1,39 @@
-# Webseite mit Chat-GPT 4.0 entwickeln
-Als ein Projekt für meine berufliche Neuorientierung habe ich mittels Prompt-Enginerring in den vergangen Tagen eine Webseite gebaut. Ich habe grundlegende Kenntnisse in HTML und CSS. Verschiedende Ideen schwebten mir vor:
+Chat-GPT-4.0-basierte Webseite
 
-- Ich wollte vollkommen auf ein fertiges Contentmanagement System verzichten sondern ganz klassisch mit Filezilla den Content selbst Uploaden.
-- Das Design sollte sich am Linkedin-Design orientieren. Dies betrifft sowohl Anordnung der Grafiken aber auch Font-Typen, ohne aber auf Google-Fonts zurückzugreifen.
-- Das Design sollte am Ende ein Kontaktformular auf PHP-Basis haben, damit die Email nicht ausgelesen werden kann.
-- Das Design sollte responsive sein, sich entsprechend dem Endgerät anpassen, beispielsweise Tabellen sollten auch auf einem Smartphone funktionieren.
-- Der Content sollte responsive sein, das meint, dass die Textlänge in Abhängigkeit vom Endgerät ausgespielt werden soll.
+In diesem Repository stelle ich eine Webseite vor, die ich als Teil meines Projekts zur beruflichen Neuorientierung entwickelt habe. Die Webseite wurde unter Verwendung von GPT-4.0 und grundlegenden HTML- und CSS-Kenntnissen erstellt.
 
-Die Webseite ist anfangs per Metatag auf noindex gesetzt.
+Projektziele
+- Verzicht auf ein fertiges Content-Management-System und Verwendung von Filezilla zum Hochladen von Inhalten.
+- Anlehnung des Designs an das Linkedin-Design, einschließlich Grafikanordnung und Schriftarten, ohne auf Google-Fonts zurückzugreifen.
+- Integration eines PHP-basierten Kontaktformulars zum Schutz der E-Mail-Adresse vor Auslesen.
+- Erstellung eines responsiven Designs, das sich an unterschiedliche Endgeräte anpasst (z.B. funktionierende Tabellen auf Smartphones).
+- Responsiver Content: Textlänge passt sich automatisch an das Endgerät an. Es wurden drei Endgeräte berücksichtigt (Desktop, Tablet, Mobile). Textlängen müssen entsprechend angepasst werden
 
-Die Entwicklung des gesamten Webdesigns erfolgte mit GPT 4.0. Das Endprodukt stelle ich mit diesem Repository für den freien Gebrauch zur Verfügung.
+Technische Details
+- Die Webseite ist zunächst per Meta-Tag auf "noindex" gesetzt.
 
-Für das Erstellen des Header-Bildes habe ich snappa.com verwendet (Vorlage Linkedin-Profil). Das Profilbild, welches in den Header integriert ist, habe ich mit fotor.com zugeschnitten.
+Verwendete Tools
+- GPT-4.0 für die Entwicklung des überwiegenden Webdesigns
+- Snappa.com für die Erstellung des Header-Bildes (LinkedIn-Profil-Vorlage)
+- Fotor.com zum Zuschneiden des Profilbildes, das im Header integriert ist
+- TermFeed für das Cookie-Consent-Banner
 
-Hintergrundbild
-Image Type:LinkedIn Profile
-Width:1584px
-Height:396px
+Verbaute Tools
+- Google Analytics 4
+- Google Search Console
+- Google Tag Manager
 
-Logo für Referenzen
-Width:150px
-Height:100px
+Bildgrößen
+- Hintergrundbild: 1584px x 396px (LinkedIn-Profil)
+- Logo für Referenzen: 150px x 100px
 
-Daneben wurden weitere kleine Spielereien verwirklicht:
-- Sende-Button mit Hoover-Effekt
-- eine responsive Tabelle für die beruflichen Stationen
-- eine Captcha-Funktion, um Spam zu reduzieren
+Zusätzliche Funktionen
+- Sende-Button mit Hover-Effekt
+- Responsive Tabelle für berufliche Stationen
+- Captcha-Funktion zur Spam-Reduzierun
 
+Wichtiger Hinweis
+Um den bereitgestellten Code anpassen zu können, benötigen Sie grundlegende Kenntnisse in HTML und CSS. Trotz der vielen guten Bausteine von GPT-4 müssen immer wieder Anpassungen vorgenommen werden.
 
-WICHTIG: Am Ende müssen Sie trotzdem HTML und CSS Verständnis haben, um den Code anpassen zu passen können.
-
-Die vollständige Webseite:
-https://florian-priegnitz.de/
+Live-Version der Webseite
+Die vollständige Webseite ist hier verfügbar: https://florian-priegnitz.de
