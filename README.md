@@ -1,6 +1,6 @@
 Chat-GPT-4.0-basierte Webseite
 
-In diesem Repository stelle ich eine Webseite vor, die ich als Teil meines Projekts zur beruflichen Neuorientierung entwickelt habe. Die Webseite wurde unter Verwendung von GPT-4.0 und grundlegenden HTML- und CSS-Kenntnissen erstellt.
+In diesem Repository stelle ich eine Webseite vor, die ich als Teil meines Projekts zur beruflichen Neuorientierung entwickelt habe. Die Webseite wurde unter Verwendung von GPT-4.0 erstellt. Ich verfüge über grundlegenden HTML- und CSS-Kenntnisse.
 
 Projektziele
 - Verzicht auf ein fertiges Content-Management-System und Verwendung von Filezilla zum Hochladen von Inhalten.
