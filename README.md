@@ -17,6 +17,8 @@ Verwendete Tools
 - Snappa.com für die Erstellung des Header-Bildes (LinkedIn-Profil-Vorlage)
 - Fotor.com zum Zuschneiden des Profilbildes, das im Header integriert ist
 - TermFeed für das Cookie-Consent-Banner
+- e-recht24 für das Impressum
+- WBS-Legal Datenschutzerklärungs-Generator
 
 Verbaute Tools
 - Google Analytics 4
@@ -24,7 +26,7 @@ Verbaute Tools
 - Google Tag Manager
 
 Bildgrößen
-- Hintergrundbild: 1584px x 396px (LinkedIn-Profil)
+- Hintergrundbild: 1584px x 396px (LinkedIn-Profil) - habe ich in Snappa gebaut
 - Logo für Referenzen: 150px x 100px
 
 Zusätzliche Funktionen
