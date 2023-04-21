@@ -3,6 +3,7 @@
 In diesem Repository stelle ich eine Webseite vor, die ich als Teil meines Projekts zur beruflichen Neuorientierung entwickelt habe. Die Webseite wurde unter Verwendung von GPT-4.0 erstellt. Ich verfüge über grundlegenden HTML- und CSS-Kenntnisse.
 
 ## Projektziele
+- Grundlegendes Verständnis für das Erarbeiten größerer Projekte mittels Chat-GPT zu entwickeln.
 - Verzicht auf ein fertiges Content-Management-System und Verwendung von Filezilla zum Hochladen von Inhalten.
 - Anlehnung des Designs an das Linkedin-Design, einschließlich Grafikanordnung und Schriftarten, ohne auf Google-Fonts zurückzugreifen.
 - Integration eines PHP-basierten Kontaktformulars zum Schutz der E-Mail-Adresse vor Auslesen.
