@@ -11,6 +11,7 @@ In diesem Repository stelle ich eine Webseite vor, die ich als Teil meines Proje
 
 ## Technische Details
 - Die Webseite ist zunächst per Meta-Tag auf "noindex" gesetzt.
+- Es wurde darauf verzichtet, Google Fonts aufgrund von Abmahnrisiken extern einzubinden. Stattdessen wurde die Lato Fonts runtergeladen und dann eingebunden.
 - Mittels Textabsätzen in HTML <p></p> und class Attributen werden über das CSS Bedingungen für die Ausspielung der Textabsätze definiet. In diesem Fall ist die Screen-Größe des Users das Kriterium für die Textausspielung
 
 ```HTML
