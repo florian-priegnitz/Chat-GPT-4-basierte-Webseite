@@ -46,6 +46,3 @@ Die Klassen werden dann über das CSS aufgegriffen und mit Bedingungen versehen
 
 ## Wichtiger Hinweis
 Um den bereitgestellten Code anpassen zu können, benötigen Sie grundlegende Kenntnisse in HTML und CSS. Trotz der vielen guten Bausteine von GPT-4 müssen immer wieder Anpassungen vorgenommen werden.
-
-## Live-Version der Webseite
-Die vollständige Webseite ist hier verfügbar: https://florian-priegnitz.de
